@@ -1,0 +1,46 @@
+{
+  "name": "grunt-scss-imports",
+  "version": "0.0.1",
+  "description": "A grunt task to create sass/scss @import statements from a collection of stylesheet files",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ITspirit/grunt-sass-imports.git"
+  },
+  "author": {
+    "name": "Michael Frank",
+    "email": "contact@phpdoctor.cc",
+    "url": "https://github.com/ITspirit/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ITspirit/grunt-sass-imports/issues"
+  },
+  "homepage": "https://github.com/ITspirit/grunt-sass-imports",
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-sass": "~0.9.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "sass",
+    "sassCSS",
+    "scss",
+    "scssCSS",
+    "compass",
+    "import",
+    "@import"
+  ],
+  "publishConfig": {
+    "registry":"http://registry.npmjs.org/"
+  }
+}
